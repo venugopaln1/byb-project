@@ -24,7 +24,7 @@ const features = [
   }
 ];
 
-const WhyChooseUs = () => (
+const WhyUs = () => (
   <div className="font-sans">
     {/* Header */}
     <header className="bg-white shadow-md px-6 py-4 sticky top-0 z-50">
@@ -84,4 +84,4 @@ const WhyChooseUs = () => (
   </div>
 );
 
-export default WhyChooseUs;
+export default WhyUs;

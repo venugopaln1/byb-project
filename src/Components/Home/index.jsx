@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SwiperCore, { Pagination, Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+
+// import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 
@@ -48,8 +48,8 @@ const Home = () => {
         </div>
       </header>
 
-      {/* Hero Banner */}
-      <section className="bg-green-100 text-center py-16 px-4">
+      {/* Hero Banner */} 
+      <section className="bg-green-100 text-center py-16 px-4"> 
         <h1 className="text-4xl font-bold mb-4 text-green-900">BYB – Build Your Business in Electric Mobility</h1>
         <p className="text-lg mb-6 text-green-800">Empowering your EV journey with strategic consulting and expert insights.</p>
         <Link to="/services" className="bg-green-600 text-white py-2 px-6 rounded hover:bg-green-700">
